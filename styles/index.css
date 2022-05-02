@@ -1,0 +1,11 @@
+.news{
+    display: flex;
+    border : 1px solid red;
+}
+.news> div:nth-child(1) {
+    border: 1px solid;
+   width:300px
+}
+.news>div>img{
+    width: 100%;
+}
